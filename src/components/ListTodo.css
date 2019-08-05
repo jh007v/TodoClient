@@ -1,0 +1,18 @@
+.list-group-item {
+  display: flex;
+  align-items: center;
+}
+
+/* class="list-group-item active" */
+.list-group-item.active {
+  background-color: red;
+  border-color: red;  
+  text-decoration: line-through;
+}
+
+.todo-content {
+  display: inline-block;
+  word-wrap: break-word;
+  padding-right: 1em;
+  width: 90%;
+}
